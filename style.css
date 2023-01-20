@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    height: 6rem;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60rem;
+}
+
+header nav div{
+    color: #0e96f0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+nav ul li a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #0e96f0;
+}
+
+/* Main Section */
+body{
+    background-color: #F1F5F8;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 6rem);
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+main section h1{
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+main section span{
+    color: rgb(73,166,233);
+    letter-spacing: 3px;
+}
+
+#btn{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: 2px solid #1a1a1a;
+    border-radius: 5px;
+    background-color: #fff;
+    letter-spacing: 1px;
+    transition: 0.4s linear;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#btn:hover{
+    background-color: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+}
+
